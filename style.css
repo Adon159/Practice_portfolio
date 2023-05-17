@@ -18,7 +18,7 @@ p{
 
 .half_width {
     width: 40%;
-    float: left;
+    display: inline-block ;
     margin-left: 5%;
     padding-left: 2%;
 }
@@ -44,13 +44,27 @@ h2{
     font-family: 'Bebas Neue', sans-serif; 
     font-size: 20px;
 }
-.lower_mid {
-    box-sizing: border-box;
-}
-
 .single_project {
-    display:inline-block;
-    width: 10.33%;
-    height: 300px;
-    box-sizing: border-box;
+    display: inline-block;
+    width: 30.3%;
+    padding-top: 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px dimgray;
+    height: 60%;
+}
+.lower_mid h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    text-align: center;
+}
+.single_project h2 {
+    font-family: 'Bebas Neue', sans-serif; 
+    color:#404040;
+    margin-left: 20px;
+    padding: 5px;
+}
+.single_project p{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 20px;
+    padding: 5px;
 }
